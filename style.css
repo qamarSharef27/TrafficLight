@@ -34,3 +34,33 @@ body {
   .green {
     background-color: green;
   }
+
+  @media (max-width: 915px) { 
+
+    .traffic-light {
+      width: 20%;
+      margin-top: 150px;
+    }
+   
+    .light {
+      width: 100px;
+      height: 100px;
+      margin: 15px;
+  }
+  }
+  
+  @media (max-width: 480px) { 
+
+   
+    .traffic-light {
+      width: 40%;
+      margin-top: 150px;
+    }
+  
+    .light {
+      width: 100px;
+      height: 100px;
+      margin: 15px;
+    }
+    
+  }
